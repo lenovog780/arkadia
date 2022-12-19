@@ -9,6 +9,7 @@ function scripts.ui:setup_footer_info()
 
     scripts.ui.footer_info_core_base_css = CSSMan.new([[
         padding-left: 5px;
+        padding-bottom: 5px;
         border: 0px;
         font-family:]].. getFont() ..[[,Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
     ]])
