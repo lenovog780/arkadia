@@ -14,9 +14,9 @@ function lfs.isdir(dir)
     return exists
 end
 
-local latest_release = "https://api.github.com/repos/tjurczyk/arkadia/releases/latest"
+local latest_release = "https://api.github.com/repos/lenovog780/arkadia/releases/latest"
 local latest_file = getMudletHomeDir() .. "/latest.json"
-local url = "https://codeload.github.com/tjurczyk/arkadia/zip/"
+local url = "https://codeload.github.com/lenovog780/arkadia/zip/"
 local scriptsZip = getMudletHomeDir() .. "/scripts.zip"
 local installerXML = getMudletHomeDir() .. "/ArkadiaScriptsInstaller.xml"
 local unzipDirectory = ""
